@@ -11,14 +11,5 @@ export default defineConfig(({ mode }) => ({
   resolve: {
     mainFields: ['module'],
   },
-  plugins: [
-    analog({
-      prerender: {
-        routes: [],
-      },
-      nitro: {
-        preset: 'deno-deploy'
-      }
-    }),
-  ],
+  plugins: [analog()],
 }));
