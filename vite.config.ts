@@ -18,6 +18,9 @@ export default defineConfig(({ mode }) => ({
       prerender: {
         routes: [],
       },
+      nitro: {
+        preset: 'deno-deploy'
+      }
     }),
   ],
 }));
