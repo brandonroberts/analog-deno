@@ -39,6 +39,6 @@ jobs:
         with:
           project: "analog-app-deno"
           entrypoint: "dist/analog/server/index.ts"
-          root: ""
+          root: "dist/analog"
           
           
